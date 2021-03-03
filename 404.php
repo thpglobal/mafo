@@ -11,7 +11,7 @@ get_header();
 
 	<section class="page-section">
 		<header class="page-header">
-			<h1>404</h1>
+			<h1>Oops...</h1>
 		</header>
 
 		<div class="page-content">
