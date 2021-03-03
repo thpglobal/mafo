@@ -27,7 +27,7 @@
 <a class="screen-reader-text" href="#content">Skip to content</a>
 
 <header class="site-header">
-	<?php the_custom_logo(); the_title();?>
+	<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
 
 	<nav class="main-navigation">
 		<?php wp_nav_menu( array('theme_location' => 'menu-1') ); ?>
