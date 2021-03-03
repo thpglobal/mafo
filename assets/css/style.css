@@ -23,8 +23,8 @@ a:hover {
 	color: #F7C243;
 }
 
-h1, h2, h3 {
-	color: #111;
+h1, h2, h3, h4 {
+	color: darkgreen;
 	line-height: 1.2;
 }
 
