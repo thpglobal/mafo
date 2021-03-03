@@ -27,9 +27,9 @@ function wpdc_add_custom_gutenberg_color_palette() {
 		'editor-color-palette',
 		[
 			[
-				'name'  => esc_html__( 'Cobalt', 'wpdc' ),
-				'slug'  => 'Cobalt',
-				'color' => '#0000aa',
+				'name'  => esc_html__( 'darkgreen', 'wpdc' ),
+				'slug'  => 'darkgreen',
+				'color' => '#006400',
 			],
 			[
 				'name'  => esc_html__( 'Aqua', 'wpdc' ),

@@ -1,10 +1,10 @@
-# thptheme
+# Mafo Wordpress Theme
 
 ### Theme for MAFO.SL website March 2021
 
 This is based on thptheme with the following changes:
 * Adrian instead of Unno font for headliens
-* darkgreen instead of cobalt
+* darkgreen instead of darkgreen
 
 ## Installation
 

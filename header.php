@@ -9,7 +9,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Unna|Source+Sans+Pro">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton|Source+Sans+Pro">
 
 	<?php wp_head(); ?>
 </head>
@@ -27,7 +27,7 @@
 <a class="screen-reader-text" href="#content">Skip to content</a>
 
 <header class="site-header">
-	<?php the_custom_logo();?>
+	<?php the_custom_logo(); the_title();?>
 
 	<nav class="main-navigation">
 		<?php wp_nav_menu( array('theme_location' => 'menu-1') ); ?>
