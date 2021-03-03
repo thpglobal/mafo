@@ -1,18 +1,24 @@
 <?php
 /**
- * Functions and definitions
+ * Functions and definitions - add logo and search from thptheme
  *
  */
 
-/*
- * Let WordPress manage the document title.
- */
 add_theme_support( 'title-tag' );
-
-/*
- * Enable support for Post Thumbnails on posts and pages.
- */
+add_theme_support( 'custom-logo',['height'=>125] );
 add_theme_support( 'post-thumbnails' );
+
+// Add search to main navigation
+function add_search_form($items, $args) {
+          if( $args->theme_location == 'menu-1' ){
+          $items = '<li class="menu-item">'
+			  . '<a href="javascript:thpsearch();">'
+			  . '<span class="dashicons dashicons-search"></span></a>'
+ 			. '</li>'.$items;
+          }
+        return $items;
+}
+add_filter('wp_nav_menu_items', 'add_search_form', 10, 2);
 
 /*
  * Switch default core markup for search form, comment form, and comments
